@@ -1,0 +1,33 @@
+.main
+{
+    position: absolute;
+    height: 491px;
+    left: 91.42px;
+    right: 18.58px;
+    top: 58.69px;
+    background-color: #FFD6B0;
+    border-radius: 60px;
+    transform: rotate(9deg);
+    background-repeat: no-repeat;
+}
+
+.img_cont
+{
+    position: absolute;
+    width: 618px;
+    height: 566px;
+    left: 0.31px;
+    top: 52.31px;
+    
+}
+
+.main img
+{
+    width : 764px;
+    height: 475px;
+    margin-bottom: 0;
+    position: absolute;
+    bottom : 2px;
+    right : -105px;
+    
+}

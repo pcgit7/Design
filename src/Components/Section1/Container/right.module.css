@@ -1,0 +1,267 @@
+.main
+{
+    position: absolute;
+    width: 684px;
+    height: 690px;
+    left: 665px;
+    top: 127px;
+}
+
+.base
+{
+    position: absolute;
+    height: 491px;
+    left: 110.42px;
+    right: 36.58px;
+    top: 57.14px;
+    background: #FFD6B0;
+    opacity: 0.3;
+    border-radius: 60px;
+    transform: rotate(-6.37deg);
+}
+
+.box1
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 17px;
+
+    position: absolute;
+    width: 233px;
+    height: 50px;
+    left: 0px;
+    top: 136px;
+
+    background: #FFFFFF;
+    /* Dark Shadow 2 */
+
+    box-shadow: -2px 4px 45px rgba(0, 0, 0, 0.13);
+    border-radius: 19px;
+}
+
+.box1 img
+{ 
+    /*width: 45px;
+    height: 52px;
+    border-radius: 50%;
+    */
+    width: 48px;
+    height: 48px;
+    border: 3px solid #E8E8F6;
+    border-radius: 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.content1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 148px;
+    height: 51px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.content1 h4
+{
+    width: 113px;
+    height: 19px;
+
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #181B32;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    top: 0;
+}
+
+.content1 p
+{
+    width: 148px;
+    height: 28px;
+
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    color: #666680;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: absolute;
+    top: 29px;
+}
+
+.box2
+{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px 20px;
+
+    position: absolute;
+    width: 157px;
+    height: 98px;
+    left: 547px;
+    top: 213px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 48px rgba(39, 42, 46, 0.09);
+    border-radius: 21px;
+}
+
+.box2 h4
+{
+    width: 108px;
+    height: 30px;
+
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+
+    color: #524FD5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    top: 0;
+}
+
+.box2 p
+{
+    width: 117px;
+    height: 24px;
+
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: #666680;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: absolute;
+    top: 40px;
+}
+.box3
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px 20px;
+    gap: 8px;
+
+    position: absolute;
+    width: 252px;
+    height: 132px;
+    left: 267px;
+    top: 509px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 24px 64px rgba(0, 0, 0, 0.06);
+    border-radius: 29px;
+}
+.avatar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 212px;
+    height: 56px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.avatar img
+{
+    height: 64px;
+    width: 64px;  
+    border-radius: 32px;
+    position: absolute;
+    top: 10%;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+
+.circle
+{
+    position: absolute;
+    background: #E8E8F6;
+    border-radius: 80px;
+    top: 10%;
+    left: 70%;
+    width: 60px;
+    height: 64px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #524FD5;
+}
+
+.content3
+{
+    width: 166px;
+    height: 24px;
+
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+
+    display: flex;
+    align-items: center;
+
+    color: #666680;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 1px;
+}

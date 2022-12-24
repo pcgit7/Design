@@ -1,0 +1,13 @@
+.container
+{
+    position: absolute;
+    width: 1376px;
+    height: 817px;
+    left: 32px;
+    top: 32px;
+    
+    /* Secondary */
+    
+    background: #FFF5F1;
+    border-radius: 40px;
+}
