@@ -1,0 +1,54 @@
+.main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+    position: absolute;
+    width: 243px;
+    height: 100px;
+    left: 499px;
+    top: 0px;
+}
+
+.main h3
+{
+    width: 158px;
+    height: 34px;
+
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 190%;
+
+    text-transform: uppercase;
+
+    color: #B0B0C0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main h2
+{
+    width: 243px;
+    height: 62px;
+
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 130%;
+
+    color: #181B32;
+
+
+    /* Inside auto layout */
+    margin-top: -10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
